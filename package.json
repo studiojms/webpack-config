@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server --baseDir=app"
+    "start": "lite-server --baseDir=app",
+    "build-dev": "webpack --mode development"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
   }
 }
