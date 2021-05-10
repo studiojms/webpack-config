@@ -11,9 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.4",
     "html-webpack-plugin": "^5.3.1",
     "lite-server": "^2.6.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.36.2",
     "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0"
   }
 }
